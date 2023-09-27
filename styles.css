@@ -1,3 +1,88 @@
 *{
-    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: white;
+}
+
+.navbar{
+    color: rgb(83, 83, 83);
+    justify-self: center;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.navbar img{
+    height: 60px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 5px;
+}
+
+.navbar h1{
+    
+    padding-left: 30px;
+    padding-right: 30px;
+    align-self: center;
+}
+
+.section1{
+    height: 700px;
+    background-color: blue;
+}
+
+.information{
+    color: white;
+    padding-top: 250px;
+    padding-left: 200px;
+    width: 300px;
+}
+
+.information h1{
+    font-size: 50px;
+}
+.information p{
+    font-size: 15px;
+}
+
+
+.section2{
+    height: 300px;
+    background-color: green;
+    
+}
+.conoce{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+}
+
+.section3{
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+}
+.section3_text{
+    color: rgb(43, 43, 43);
+    padding-top: 150px;
+    padding-left: 1000px;
+    width: 400px;
+}
+
+footer{
+    text-align: center;
+    padding: 30px 90px;
+    height: 150px;
+    color: white;
+    background-color: rgb(15, 14, 14);
+}
+
+.footer{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
 }
